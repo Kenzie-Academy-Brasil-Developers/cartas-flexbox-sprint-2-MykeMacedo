@@ -60,7 +60,7 @@
       border: 1px solid #CAD0D2;
       border-radius: 4px;
       width:320px;
-      height: 45%;
+      height: 54%;
       align-items: flex-end;
     }
     
@@ -70,6 +70,7 @@
       }
     
       .cardGroup__card {
+        flex-grow: 1;
       }
     
       .cardGroup__cardDescription {
@@ -106,7 +107,7 @@ body {
   justify-content: center;
   align-items: center;
   width:235px;
-  height:125px;
+  height:100px;
   border: 1px solid #CAD0D2;
 }
 
@@ -135,10 +136,9 @@ body {
 .cardGroup {
     display: flex;
     flex-direction: row;
-    border: 1px solid #CAD0D2;
     border-radius: 4px;
     width:710px;
-    height: 15%;
+    height:15%;
     align-items: flex-end;
   }
   
@@ -148,6 +148,7 @@ body {
     }
   
     .cardGroup__card {
+      flex-grow: 1;
     }
   
     .cardGroup__cardDescription {
